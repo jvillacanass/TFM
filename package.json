@@ -1,0 +1,42 @@
+{
+  "name": "ingest-bikes",
+  "version": "1.0",
+  "description": "Node.js ingest",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "JOrge Villacanas"
+  },
+  "homepage": "http://openshift.redhat.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://gitub.com/openshift/nodejs-custom-version-openshift.git"
+  },
+
+  "engines": {
+    "node": ">= 5.9.0",
+    "npm": ">= 1.2.0"
+  },
+
+  "dependencies": {
+    "config-multipaas": "^0.1.0",
+    "restify": "^2.8.3",
+	"concurrently":"^3.5.0",
+    "console-stamp": "^0.2.5",
+	"mongodb": "^2.2.30",
+    "node-cron": "^1.2.0",
+    "node-rest-client": "^3.1.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "index.js"
+}
